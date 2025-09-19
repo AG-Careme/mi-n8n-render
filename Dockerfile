@@ -11,6 +11,3 @@ RUN mkdir -p /home/node/.n8n/nodes \
 
 # Regresamos al usuario node (como hace la imagen oficial)
 USER node
-
-# Comando de inicio por defecto de n8n
-CMD ["n8n", "start"]
